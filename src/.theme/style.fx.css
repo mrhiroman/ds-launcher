@@ -1,0 +1,8 @@
+/* JavaFX CSS Style with -fx- prefix */
+@font-face {
+    -fx-font-family: 'Unifont'; /* Здесь вводим имя шрифта */
+    src: url('/.data/Unifont.ttf'); /* Путь к файлу со шрифтом, начиная от src, протокол res:// не нужен !!! */
+}
+.my-font1{
+    -fx-font-family: 'Unifont'; /* пишем имя указанное ранее */
+}
