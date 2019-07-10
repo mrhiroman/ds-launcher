@@ -125,17 +125,20 @@ class MainForm extends AbstractForm
         browse('http://discord.gg/afqmUgq');
     }
 
-
-
-
     /**
-     * @event image10.mouseDrag 
+     * @event image10.click-Left 
      */
-    function doImage10MouseDrag(UXMouseEvent $e = null)
-    {    
-        $this->x = Mouse::x() - 32;
-        $this->y = Mouse::y() - 32;
+    function doImage10ClickLeft(UXMouseEvent $e = null)
+    {
+        
+        
+        // Generated
+        $e = $event ?: $e; // legacy code from 16 rc-2
+        
+        app()->showForm('settings');
     }
+
+
 
 
 

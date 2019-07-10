@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<behaviours/>
+<behaviours>
+  <target id="label10">
+    <behaviour animated="1" opacity="0.89512195121951" opacityEnabled="1" type="behaviour\custom\DraggingFormBehaviour"/>
+  </target>
+</behaviours>
