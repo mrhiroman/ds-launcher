@@ -123,5 +123,29 @@
       </font>
     </ImageViewEx>
     <Data clickImage=".data/img/settingclicked.png" cursor="DEFAULT" enabled="1" hoverImage=".data/img/settingshover.png" id="data-image10" image=".data/img/settingsnormal.png" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label11" layoutX="528" layoutY="512" prefHeight="16" prefWidth="96" style="-fx-font-family: Unifont;-fx-font-size: 18.0;" styleClass="label my-font1 " text="Сервер:" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="18"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label11" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label12" layoutX="600" layoutY="512" prefHeight="16" prefWidth="96" style="-fx-font-family: Unifont;-fx-font-size: 18.0;" styleClass="label my-font1 " text="..." textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="18"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label12" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label13" layoutX="696" layoutY="512" prefHeight="16" prefWidth="96" style="-fx-font-family: Unifont;-fx-font-size: 18.0;" styleClass="label my-font1 " text="Игроков:" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="18"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label13" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label14" layoutX="776" layoutY="512" prefHeight="16" prefWidth="96" style="-fx-font-family: Unifont;-fx-font-size: 18.0;" styleClass="label my-font1 " text="0" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="18"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label14" visible="1"/>
   </children>
 </AnchorPane>

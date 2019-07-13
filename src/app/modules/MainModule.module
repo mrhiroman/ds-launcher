@@ -1,15 +1,6 @@
 {
   "props": [],
   "components": {
-    "downloader": {
-      "type": "bundle\\http\\HttpDownloader",
-      "x": 240,
-      "y": 80,
-      "props": {
-        "urls": "http://hiromanserv.7m.pl/Client.zip",
-        "threadCount": "4"
-      }
-    },
     "zipFile": {
       "type": "bundle\\zip\\ZipFileScript",
       "x": 560,
@@ -17,6 +8,15 @@
       "props": {
         "path": "Client.zip",
         "autoCreate": "1"
+      }
+    },
+    "downloader": {
+      "type": "bundle\\http\\HttpDownloader",
+      "x": 240,
+      "y": 80,
+      "props": {
+        "urls": "http://hiromanserv.7m.pl/Client.zip",
+        "threadCount": "4"
       }
     },
     "httpClient": {

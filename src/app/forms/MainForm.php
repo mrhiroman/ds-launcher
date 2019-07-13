@@ -14,7 +14,14 @@ class MainForm extends AbstractForm
     function doShow(UXWindowEvent $e = null)
     {    
     global $a, $b, $c;
-    $c = 1;
+        $d = file_get_contents("https://www.ascensiongamedev.com/resources/status.php?host=18.218.176.136&port=5400");
+        if($d == -1){
+        $this->label12->text = 'Оффлайн'; 
+        } else {
+        $this->label12->text = 'Онлайн';
+        $this->label14->text = $d;
+        }
+        $c = 1;
         $a = file_get_contents("http://demonslayers.ml/files/dsver.txt");
         $this->label4->text = $a;
         if(file_exists("localver.txt"))

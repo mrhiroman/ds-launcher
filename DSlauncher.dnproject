@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="саня" authorOS="Windows 10" createdAt="1554823440968" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="DSlauncher" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1562754520222">
+<project author="саня" authorOS="Windows 10" createdAt="1554823440968" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="DSlauncher" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1563017575652">
   <tree>
     <expanded>
     <path src=""/>
@@ -13,8 +13,8 @@
   <openedFiles>
   <file src="DSlauncher.dnproject"/>
     <file src="src/app/modules/MainModule.php"/>
-    <file src="src/app/forms/MainForm.php"/>
-    <file selected="1" src="src/app/forms/settings.php"/>
+    <file selected="1" src="src/app/forms/MainForm.php"/>
+    <file src="src/app/forms/settings.php"/>
   </openedFiles>
   <files/>
   <behaviours>
