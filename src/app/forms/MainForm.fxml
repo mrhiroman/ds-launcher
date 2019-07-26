@@ -59,7 +59,7 @@
     <Data cursor="DEFAULT" enabled="1" id="data-image" image=".data/img/logo.png" visible="1"/>
     <WebView focusTraversable="true" id="browser" layoutX="464" layoutY="176" prefHeight="280" prefWidth="568"/>
     <Data cursor="DEFAULT" enabled="1" id="data-browser" url="http://demonslayers.ml/files/news.txt" visible="1"/>
-    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label7" layoutX="80" layoutY="200" prefHeight="49" prefWidth="392" style="-fx-font-family: Unifont;&#10;-fx-font-size: 24.0;" styleClass="label my-font1 " text="Скоро в продаже " textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label7" layoutX="72" layoutY="200" prefHeight="49" prefWidth="392" style="-fx-font-family: Unifont;&#10;-fx-font-size: 24.0;" styleClass="label my-font1 " text="Скоро в продаже " textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
       <font>
         <Font name="System Regular" size="24"/>
       </font>

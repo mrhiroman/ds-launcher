@@ -31,7 +31,7 @@
       </font>
     </ImageViewEx>
     <Data clickImage=".data/img/buttonclicked.png" cursor="DEFAULT" enabled="1" hoverImage=".data/img/buttonhover.png" id="data-image4" image=".data/img/buttonnormal.png" visible="1"/>
-    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="16" layoutY="248" prefHeight="16" prefWidth="96" style="-fx-font-family: Unifont;-fx-font-size: 18.0;" styleClass="label my-font1 " text="v.1.1" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="16" layoutY="248" prefHeight="16" prefWidth="96" style="-fx-font-family: Unifont;-fx-font-size: 18.0;" styleClass="label my-font1 " text="v.1.3" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
       <font>
         <Font name="System Regular" size="18"/>
       </font>
