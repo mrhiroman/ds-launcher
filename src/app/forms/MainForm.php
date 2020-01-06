@@ -14,8 +14,8 @@ class MainForm extends AbstractForm
     function doShow(UXWindowEvent $e = null)
     {    
     global $a, $b, $c;
-        $d = file_get_contents("https://www.ascensiongamedev.com/resources/status.php?host=18.218.176.136&port=5400");
-        if($d == -1){
+        $d = file_get_contents("https://www.ascensiongamedev.com/resources/status.php?host=193.124.58.49&port=5400");
+        if($d == '-1'){
         $this->label12->text = 'Оффлайн'; 
         } else {
         $this->label12->text = 'Онлайн';

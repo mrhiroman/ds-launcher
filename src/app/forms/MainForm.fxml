@@ -92,13 +92,13 @@
       </font>
     </ImageViewEx>
     <Data clickImage=".data/img/buttonclicked.png" cursor="DEFAULT" enabled="" hoverImage=".data/img/buttonhover.png" id="data-image7" image=".data/img/buttonnormal.png" visible="1"/>
-    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label6" layoutX="74" layoutY="519" prefHeight="16" prefWidth="91" style="-fx-font-family: Unifont;-fx-font-size: 18.0;" styleClass="label my-font1 " text="Обновить" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label6" layoutX="74" layoutY="519" prefHeight="27" prefWidth="88" style="-fx-font-family: Unifont;-fx-font-size: 18.0;" styleClass="label my-font1 " text="Обновить" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
       <font>
         <Font name="System Regular" size="18"/>
       </font>
     </LabelEx>
     <Data cursor="DEFAULT" enabled="1" id="data-label6" visible="1"/>
-    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label9" layoutX="263" layoutY="519" prefHeight="16" prefWidth="96" style="-fx-font-family: Unifont;-fx-font-size: 18.0;" styleClass="label my-font1 " text="Запустить" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label9" layoutX="263" layoutY="519" prefHeight="27" prefWidth="88" style="-fx-font-family: Unifont;-fx-font-size: 18.0;" styleClass="label my-font1 " text="Запустить" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
       <font>
         <Font name="System Regular" size="18"/>
       </font>
