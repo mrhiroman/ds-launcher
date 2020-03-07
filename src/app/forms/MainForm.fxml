@@ -80,25 +80,13 @@
       </font>
     </ImageViewEx>
     <Data clickImage=".data/img/closeclicked.png" cursor="DEFAULT" enabled="1" hoverImage=".data/img/closehover.png" id="data-image5" image=".data/img/closenormal.png" visible="1"/>
-    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="56" id="image6" layoutX="16" layoutY="504" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="192">
-      <font>
-        <Font name="System Regular" size="12"/>
-      </font>
-    </ImageViewEx>
-    <Data clickImage=".data/img/buttonclicked.png" cursor="DEFAULT" enabled="" hoverImage=".data/img/buttonhover.png" id="data-image6" image=".data/img/buttonnormal.png" visible="1"/>
-    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="56" id="image7" layoutX="208" layoutY="504" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="184">
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="56" id="image7" layoutX="16" layoutY="504" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="184">
       <font>
         <Font name="System Regular" size="12"/>
       </font>
     </ImageViewEx>
     <Data clickImage=".data/img/buttonclicked.png" cursor="DEFAULT" enabled="" hoverImage=".data/img/buttonhover.png" id="data-image7" image=".data/img/buttonnormal.png" visible="1"/>
-    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label6" layoutX="74" layoutY="519" prefHeight="27" prefWidth="88" style="-fx-font-family: Unifont;-fx-font-size: 18.0;" styleClass="label my-font1 " text="Обновить" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
-      <font>
-        <Font name="System Regular" size="18"/>
-      </font>
-    </LabelEx>
-    <Data cursor="DEFAULT" enabled="1" id="data-label6" visible="1"/>
-    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label9" layoutX="263" layoutY="519" prefHeight="27" prefWidth="88" style="-fx-font-family: Unifont;-fx-font-size: 18.0;" styleClass="label my-font1 " text="Запустить" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label9" layoutX="72" layoutY="520" prefHeight="27" prefWidth="88" style="-fx-font-family: Unifont;-fx-font-size: 18.0;" styleClass="label my-font1 " text="Запустить" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
       <font>
         <Font name="System Regular" size="18"/>
       </font>
@@ -147,5 +135,11 @@
       </font>
     </LabelEx>
     <Data cursor="DEFAULT" enabled="1" id="data-label14" visible="1"/>
+    <TextArea editable="true" focusTraversable="true" id="textArea" layoutX="240" layoutY="128" prefColumnCount="40" prefHeight="56" prefWidth="144" promptText="" styleClass="text-input text-area " text="gkjmghk" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </TextArea>
+    <Data cursor="DEFAULT" enabled="1" id="data-textArea" visible="1"/>
   </children>
 </AnchorPane>

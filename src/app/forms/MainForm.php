@@ -24,21 +24,40 @@ class MainForm extends AbstractForm
         $c = 1;
         $a = file_get_contents("http://demonslayers.ml/files/dsver.txt");
         $this->label4->text = $a;
-        if(file_exists("localver.txt"))
+        if(file_exists("localmajor.txt"))
         {
-        $b = file_get_contents("localver.txt");
+        $b = file_get_contents("localmajor.txt");
+        $b1 = file_get_contents("localpatches.txt");
         $this->label3->text = $b;
         } else 
         {
-        file_put_contents("localver.txt",0);
+        file_put_contents("localmajor.txt",0);
         //app()->shutdown();
         }
         if($a == $b)
         {
-            $this->image7->enabled = true;
+            $patch1 = file_get_contents("http://demonslayers.ml/files/patchlist.txt");
+            $patch2 = file_get_contents('localpatches.txt');
+            if ($patch2 == $patch1){
+        
+            } else {
+          for ($cher = 1; $cher <= ($patch1 + 2); $cher++){
+          $this->downloaderAlt->urls .= 'http://hiromanserv.7m.pl/' . $cher .'.zip
+          ';
+          $this->textArea->text .= 'http://hiromanserv.7m.pl/' . $cher .'.zip
+          ';
+          }
+          $this->downloaderAlt->start();
+          $this->label5->text = 'Загрузка патчей (' . ($cher - 1) . ')...';
+          $kek = 1;
+            }
+            //$this->image7->enabled = true;
         } else 
         {
-          $this->image6->enabled = true;
+          $this->downloader->urls = "http://hiromanserv.7m.pl/Client.zip";
+          $this->downloader->start();
+          $this->label5->text = 'Загрузка последней версии...';
+          //$this->image6->enabled = false;
         }
         $timer = Timer::every(7500, function () 
         {
@@ -93,15 +112,6 @@ class MainForm extends AbstractForm
         app()->shutdown();
     }
 
-    /**
-     * @event image6.click-Left 
-     */
-    function doImage6ClickLeft(UXMouseEvent $e = null)
-    {    
-        $this->downloader->start();
-        $this->label5->text = 'Загрузка обновления...';
-        $this->image6->enabled = false;
-    }
 
     /**
      * @event image7.click-Left 

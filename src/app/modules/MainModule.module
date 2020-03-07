@@ -6,7 +6,7 @@
       "x": 240,
       "y": 80,
       "props": {
-        "urls": "http://hiromanserv.7m.pl/Client.zip",
+        "urls": "",
         "threadCount": "4"
       }
     },
@@ -22,7 +22,7 @@
     "httpClient": {
       "type": "bundle\\http\\HttpClient",
       "x": 112,
-      "y": 48,
+      "y": 80,
       "props": {
         "requestType": "URLENCODE",
         "responseType": "TEXT",
@@ -31,6 +31,23 @@
         "followRedirects": "1",
         "proxyType": "DIRECT",
         "userAgent": "Simple Bot v1.0"
+      }
+    },
+    "downloaderAlt": {
+      "type": "bundle\\http\\HttpDownloader",
+      "x": 336,
+      "y": 80,
+      "props": {
+        "threadCount": "4"
+      }
+    },
+    "zipFileAlt": {
+      "type": "bundle\\zip\\ZipFileScript",
+      "x": 624,
+      "y": 80,
+      "props": {
+        "path": "example.zip",
+        "autoCreate": "1"
       }
     }
   }
